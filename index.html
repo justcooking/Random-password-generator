@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="super-container">
+            <div id="heroSection">
+                <h1 id="title">Generate a <span id="colGreen">random password</span></h1>
+                <p id="tagLine">Never use an insecure password again.</p>
+            </div>
+                
+            <div id="generateSection">
+                <button id="generate-btn"
+                onclick="generate()">Generate passwords</button>
+            </div>
+            <hr>
+            <div id="passwordSection">
+                <div id="password1"></div>
+                <div id="password2"></div>
+            </div>
+            <div id="optionsSection">
+                <label>Password size: </label>
+                <input id="SizeEl" type="number" min="0" max="15" value="8">
+                <label id="maxEl">(maximum 15)</label>
+                <br>
+                <label>Include numbers: </label>
+                <input id="NumbersEl" type="checkbox">
+                <br>
+                <label>Include special symbols: </label>
+                <input id="specialEl" type="checkbox">
+            </div>
+            <p id="hint">Click on the passwords to copy</p>
+            <div id="creditsSection">
+                <p>Nejad Ihsan 2026 © All rights reserved</p>
+            </div>
+            <hr id="endLine">
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

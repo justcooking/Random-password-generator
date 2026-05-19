@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color : #1F2937;
+    font-family: 'Karla', sans-serif;
+}
+#super-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    height: 600px;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+#heroSection{
+    margin-bottom: 20px;
+}
+#title,#generate-btn{
+    color : white;
+}
+#title{
+    width: 450px;
+    margin-bottom: 0;
+}
+#tagLine{
+    margin-top : 5px;
+    color : #D5D4D8;
+    font-size: 27.5px;
+}
+#colGreen{
+    color : #4ADF86;
+}
+#generateSection{
+    display : flex;
+    width: 500px;
+}
+#generate-btn{
+    border : none;
+    background : #10B981;
+    padding : 10px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+}
+#generate-btn:hover{
+    background : #0c8a60;
+}
+#generate-btn:active{
+    background : #17f8ad93;
+}
+hr{
+    width: 500px;
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 40px;
+    margin-top : 40px;
+}
+#passwordSection{
+    display:flex;
+    justify-content: space-between;
+    width: 500px;
+    color: #4ADF86;
+}
+#password1,#password2{
+    width: 210px;
+    background: #273549;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    font-size : 20px;
+    border-radius: 5px;
+    height: 22px;
+    cursor : pointer;   
+}
+#password1:hover,#password2:hover{
+    background: #4c6991ae;
+}
+#password1:active,#password2:active{
+    background: #3c5e8cae;
+}
+h1{
+    font-size : 50px;
+    font-weight: 800;
+}
+#optionsSection{
+    color: #D5D4D8;
+    margin-top: 50px;
+    font-size: 20px;
+}
+#SizeEl{
+    width: 40px;
+    height: 20px;
+    border: none;
+    background: #273549;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #D5D4D8;
+}
+#maxEl{
+    margin-top: 30px;
+    font-size: 12px;
+}
+#hint{
+    color: #d5d4d884;
+}
+#endLine{
+    margin : 0px 30px 0 30px;
+    width: 80%;
+}
+#creditsSection{
+    margin : 50px 0 0 0;
+    color: #d5d4d884;
+}
